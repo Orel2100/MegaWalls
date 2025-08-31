@@ -1,0 +1,14 @@
+# MegaWallsFFA Configuration
+
+# Database settings
+database:
+  host: localhost
+  port: 3306
+  database: megawallsffa
+  username: root
+  password: "password"
+
+# Game settings
+game:
+  coins-per-kill: 10
+  xp-per-kill: 50

@@ -2,3 +2,14 @@ name: MegawallsFFA
 version: '1.0-SNAPSHOT'
 main: me.orel.MegawallsFFA
 api-version: '1.21'
+commands:
+  shop:
+    description: Opens the kit shop.
+    usage: /shop
+  stats:
+    description: Shows your stats.
+    usage: /stats
+  megawallsffa:
+    description: Admin command for MegaWallsFFA.
+    usage: /megawallsffa <subcommand>
+    permission: megawallsffa.admin
